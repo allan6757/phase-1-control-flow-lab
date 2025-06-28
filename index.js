@@ -11,12 +11,18 @@ function scuberGreetingForFeet(){
     return 'That will be twenty bucks.';
   }
 }
-
-function ternaryCheckCity(city) {
-  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
-function switchOnCharmFromTip(tip) {
+function ternaryCheckCity(){
+  // Write your code here!
+  function ternaryCheckCity(city) {
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
+}
+}
+
+function switchOnCharmFromTip(){
+  // Write your code here!
+  function switchOnCharmFromTip(tip) {
   switch (tip) {
     case 'generous':
       return 'Thank you so much.';
@@ -26,12 +32,4 @@ function switchOnCharmFromTip(tip) {
       return 'Bye.';
   }
 }
-}
-
-function ternaryCheckCity(){
-  // Write your code here!
-}
-
-function switchOnCharmFromTip(){
-  // Write your code here!
 }
